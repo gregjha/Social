@@ -1,0 +1,31 @@
+<div id = 'instafeed'><h2> Most recent Instagram</h2></div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '{{instagramID}}',
+        clientId: '1892a8f4e7cc41b6b6d0bde812a29c77',
+        accessToken: '5994345460.1677ed0.9078f8c1d1dc4c6f80d4227f2fec872c',
+        limit: '1'
+    });
+    feed.run();
+</script>
+
+<br></br>
+
+<a href=http://www.twitter.com/{{twitter}}> Twitter Profile</a> 
+
+<br></br>
+
+<a href=facebook.com/{{fb}}> Facebook Profile</a> 
+
+<br></br>
+<br></br>
+
+<a href ='/search'>Search for Users</a>
+
+<br></br>
+
+<a href ='/logout'>Logout</a>

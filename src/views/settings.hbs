@@ -1,0 +1,31 @@
+<form method = 'POST' action = '/settings/change'>
+	<p>Instagram User ID: <input type='text' name='instagram'>
+	<p>Facebook URL: <input type='text' name='facebook'>
+	<p>Twitter: <input type='text' name='twitter'>
+	<input type='submit'>
+</form>
+
+<br></br>
+
+<h2> Current Accounts </h2>
+
+<p>Instagram: {{insta}}</p>
+<p>Facebook: {{fb}}</p>
+<p>Twitter: {{twitter}}</p>
+
+<br></br>
+<br></br>
+
+<a href=/profile/{{username}}> Go to profile</a> 
+
+<br></br>
+
+<a href ='/search'>Search for Users</a>
+
+<br></br>
+
+<a href ='/follow'>Follow Users</a>
+
+<br></br>
+
+<a href ='/logout'>Logout</a>
